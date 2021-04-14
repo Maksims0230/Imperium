@@ -5,27 +5,27 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637509741789380855
-    m_Hash: 3617124489
+      ticks: 637540013555865004
+    m_Hash: 2701502269
   m_LockFileStatus:
     m_FilePath: E:/Unity/Imperium/Imperium/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637509742264039485
-    m_Hash: 3228591515
+      ticks: 637540013575965523
+    m_Hash: 2388821440
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_PackageAssets:
   m_Packages:
     m_ResolvedPackages:
-    - packageId: com.unity.2d.animation@5.0.3
+    - packageId: com.unity.2d.animation@5.0.4
       testable: 0
       isDirectDependency: 1
-      version: 5.0.3
+      version: 5.0.4
       source: 1
-      resolvedPath: E:\Unity\Imperium\Imperium\Library\PackageCache\com.unity.2d.animation@5.0.3
+      resolvedPath: E:\Unity\Imperium\Imperium\Library\PackageCache\com.unity.2d.animation@5.0.4
       assetPath: Packages/com.unity.2d.animation
       name: com.unity.2d.animation
       displayName: 2D Animation
@@ -94,6 +94,7 @@ m_PackageAssets:
         - 5.0.4
         - 6.0.0-pre.1
         - 6.0.0-pre.2
+        - 6.0.1
         compatible:
         - 5.0.3
         - 5.0.4
@@ -143,13 +144,117 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 637408845570000000
+      datePublishedTicks: 637478931180000000
       documentationUrl: 
       hasRepository: 1
       repository:
         type: git
         url: https://github.cds.internal.unity3d.com/unity/2d.git
-        revision: c97def465b1932276762fc13f4cfee58da99d5e9
+        revision: 3cf59035d02a34d40d678f2cd5f1c65515a8347e
+        path: 
+    - packageId: com.unity.2d.ik@3.0.2-preview.3
+      testable: 0
+      isDirectDependency: 1
+      version: 3.0.2-preview.3
+      source: 1
+      resolvedPath: E:\Unity\Imperium\Imperium\Library\PackageCache\com.unity.2d.ik@3.0.2-preview.3
+      assetPath: Packages/com.unity.2d.ik
+      name: com.unity.2d.ik
+      displayName: 2D IK
+      author:
+        name: 
+        email: 
+        url: 
+      category: 2D
+      type: 
+      description: 2D IK package provides the necessary editor tooling to setup inverse
+        kinematics for 2D characters and a runtime component to execute it.
+      status: 4
+      errors: []
+      versions:
+        all:
+        - 1.0.5-preview.1
+        - 1.0.5-preview.2
+        - 1.0.5-preview.3
+        - 1.0.6-preview
+        - 1.0.6-preview.1
+        - 1.0.7-preview.1
+        - 1.0.8-preview.1
+        - 1.1.0-preview.1
+        - 1.2.0-preview.2
+        - 1.3.0-preview.1
+        - 2.0.0-preview.1
+        - 2.0.0-preview.2
+        - 2.0.1-preview.2
+        - 2.0.2-preview.1
+        - 2.1.0-preview.1
+        - 3.0.0-preview.1
+        - 3.0.0-preview.2
+        - 3.0.1-preview.2
+        - 3.0.2-preview.1
+        - 3.0.2-preview.3
+        compatible:
+        - 1.0.5-preview.1
+        - 1.0.5-preview.2
+        - 1.0.5-preview.3
+        - 1.0.6-preview
+        - 1.0.6-preview.1
+        - 1.0.7-preview.1
+        - 1.0.8-preview.1
+        - 1.1.0-preview.1
+        - 1.2.0-preview.2
+        - 1.3.0-preview.1
+        - 2.0.0-preview.1
+        - 2.0.0-preview.2
+        - 2.0.1-preview.2
+        - 2.0.2-preview.1
+        - 2.1.0-preview.1
+        - 3.0.0-preview.1
+        - 3.0.0-preview.2
+        - 3.0.1-preview.2
+        - 3.0.2-preview.1
+        - 3.0.2-preview.3
+        verified: 
+      dependencies:
+      - name: com.unity.2d.common
+        version: 3.0.1
+      resolvedDependencies:
+      - name: com.unity.2d.common
+        version: 4.0.3
+      - name: com.unity.2d.sprite
+        version: 1.0.0
+      - name: com.unity.modules.uielements
+        version: 1.0.0
+      - name: com.unity.modules.ui
+        version: 1.0.0
+      - name: com.unity.modules.imgui
+        version: 1.0.0
+      - name: com.unity.modules.jsonserialize
+        version: 1.0.0
+      - name: com.unity.modules.uielementsnative
+        version: 1.0.0
+      keywords:
+      - 2d
+      - ik
+      registry:
+        id: main
+        name: 
+        url: https://packages.unity.com
+        scopes: []
+        isDefault: 1
+        capabilities: 7
+      hasRegistry: 1
+      hideInEditor: 1
+      entitlements:
+        isAllowed: 1
+      isAssetStorePackage: 0
+      datePublishedTicks: 637436853810000000
+      documentationUrl: 
+      hasRepository: 1
+      repository:
+        type: git
+        url: https://github.cds.internal.unity3d.com/unity/2d.git
+        revision: dd8b11f003d767d40cea1bf8767e294c05869f4e
         path: 
     - packageId: com.unity.2d.pixel-perfect@4.0.1
       testable: 0
@@ -194,6 +299,7 @@ m_PackageAssets:
         - 4.0.1
         - 5.0.0-pre.1
         - 5.0.0-pre.2
+        - 5.0.0
         compatible:
         - 4.0.1
         verified: 4.0.1
@@ -278,6 +384,7 @@ m_PackageAssets:
         - 4.0.2
         - 5.0.0-pre.1
         - 5.0.0-pre.2
+        - 5.0.1
         compatible:
         - 4.0.2
         verified: 4.0.2
@@ -304,7 +411,7 @@ m_PackageAssets:
       - name: com.unity.modules.uielementsnative
         version: 1.0.0
       - name: com.unity.2d.animation
-        version: 5.0.3
+        version: 5.0.4
       - name: com.unity.mathematics
         version: 1.1.0
       - name: com.unity.modules.animation
@@ -453,6 +560,7 @@ m_PackageAssets:
         - 5.1.1
         - 6.0.0-pre.1
         - 6.0.0-pre.2
+        - 6.0.0
         compatible:
         - 5.1.0
         - 5.1.1
@@ -1208,6 +1316,7 @@ m_PackageAssets:
         - 1.4.4
         - 1.4.5
         - 1.4.6
+        - 1.4.7
         - 1.5.0-pre.2
         - 1.5.0-preview.1
         - 1.5.0-preview.2
@@ -1218,7 +1327,9 @@ m_PackageAssets:
         - 1.5.1-pre.2
         - 1.5.1-pre.3
         - 1.5.2
+        - 1.5.4
         - 1.6.0-pre.1
+        - 1.6.0-pre.3
         compatible:
         - 1.2.6
         - 1.2.7
@@ -1258,6 +1369,7 @@ m_PackageAssets:
         - 1.4.4
         - 1.4.5
         - 1.4.6
+        - 1.4.7
         - 1.5.0-pre.2
         - 1.5.0-preview.1
         - 1.5.0-preview.2
@@ -1268,8 +1380,10 @@ m_PackageAssets:
         - 1.5.1-pre.2
         - 1.5.1-pre.3
         - 1.5.2
+        - 1.5.4
         - 1.6.0-pre.1
-        verified: 1.4.6
+        - 1.6.0-pre.3
+        verified: 1.4.7
       dependencies:
       - name: com.unity.modules.director
         version: 1.0.0
@@ -3201,9 +3315,33 @@ m_PackageAssets:
       errors: []
       versions:
         all:
+        - 0.0.12-preview.2
+        - 0.0.12-preview.5
+        - 0.0.12-preview.8
+        - 0.0.12-preview.10
+        - 0.0.12-preview.11
+        - 0.0.12-preview.13
+        - 0.0.12-preview.17
+        - 0.0.12-preview.19
+        - 0.0.12-preview.20
+        - 1.0.0-preview.1
+        - 1.0.1
+        - 1.1.0-preview.1
         - 1.1.0
         - 1.2.1
         compatible:
+        - 0.0.12-preview.2
+        - 0.0.12-preview.5
+        - 0.0.12-preview.8
+        - 0.0.12-preview.10
+        - 0.0.12-preview.11
+        - 0.0.12-preview.13
+        - 0.0.12-preview.17
+        - 0.0.12-preview.19
+        - 0.0.12-preview.20
+        - 1.0.0-preview.1
+        - 1.0.1
+        - 1.1.0-preview.1
         - 1.1.0
         - 1.2.1
         verified: 1.2.1
@@ -3223,7 +3361,7 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 0
+      datePublishedTicks: 636984649280000000
       documentationUrl: 
       hasRepository: 1
       repository:
@@ -3252,8 +3390,25 @@ m_PackageAssets:
       errors: []
       versions:
         all:
+        - 1.0.9-preview.1
+        - 1.0.9-preview.2
+        - 1.0.10-preview
+        - 1.0.11-preview.1
+        - 1.1.0-preview.1
+        - 1.1.0-preview.2
+        - 1.2.0-preview.1
+        - 2.0.1
+        - 2.0.2
+        - 2.1.0
+        - 3.0.0
+        - 3.0.1
+        - 4.0.0
+        - 4.0.1
         - 4.0.2
         - 4.0.3
+        - 5.0.0-pre.1
+        - 5.0.0-pre.2
+        - 5.0.0
         compatible:
         - 4.0.2
         - 4.0.3
@@ -3290,7 +3445,7 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 0
+      datePublishedTicks: 637408843940000000
       documentationUrl: 
       hasRepository: 1
       repository:
@@ -3319,7 +3474,23 @@ m_PackageAssets:
       errors: []
       versions:
         all:
+        - 1.0.0-preview.1
+        - 1.0.0-preview.4
+        - 2.0.1
+        - 2.0.2
+        - 2.0.3
+        - 2.0.4
+        - 2.0.5
+        - 2.0.6
+        - 2.1.0
+        - 3.0.0
+        - 3.0.1
+        - 3.0.2
+        - 4.0.0
         - 4.0.1
+        - 5.0.0-pre.1
+        - 5.0.0-pre.2
+        - 5.0.0
         compatible:
         - 4.0.1
         verified: 4.0.1
@@ -3340,7 +3511,7 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 0
+      datePublishedTicks: 637328350450000000
       documentationUrl: 
       hasRepository: 1
       repository:
