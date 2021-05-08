@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -9,7 +10,10 @@ public class PlayerController : MonoBehaviour
     private Vector2 _moveVelocity;
 
     // Start is called before the first frame update
-    void Start() {}
+    void Start()
+    {
+        rb = GetComponent<Rigidbody2D>();
+    }
 
     // Update is called once per frame
     void Update()
@@ -20,7 +24,14 @@ public class PlayerController : MonoBehaviour
 
     private void FixedUpdate() {
         rb.MovePosition(rb.position + _moveVelocity * Time.fixedDeltaTime);
-        float SRes = Vector2.Dot(rb.transform.right, _moveVelocity);
-        rb.MoveRotation(rb.rotation - SRes);
+        // float SRes = Vector2.Dot(rb.transform.right, _moveVelocity);
+        // rb.MoveRotation(rb.rotation - SRes);
+    }
+
+    private int count = 0;
+    private void OnTriggerStay2D(Collider2D other)
+    {
+        if (Input.GetKey(KeyCode.Mouse0))
+            Debug.Log($"({count++}) {other.name}");
     }
 }
